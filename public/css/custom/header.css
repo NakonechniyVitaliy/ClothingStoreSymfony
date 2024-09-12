@@ -1,3 +1,20 @@
+ul.header li a{
+    color: black;
+    margin-left: 55px;
+    text-decoration: none;
+}
+
+.header-sticky{
+    position: sticky;
+    top: 0;
+    opacity: 100;
+    background: white;
+}
+
 .nav{
-    margin-left: 3vw;
+    margin-left: 150px;
+}
+
+.logo{
+    width: 12vw;
 }
