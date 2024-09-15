@@ -13,10 +13,10 @@ class IndexController extends AbstractController
     #[Route('/', name: 'app_index')]
     public function index(ClothRepository $clothRepository): Response
     {
-        $clouth = $clothRepository->findAll();
+        $cloth = $clothRepository->findAll();
 
         return $this->render('index/index.html.twig', [
-            'clouth' => $clouth,
+            'cloth' => $cloth,
         ]);
     }
 }

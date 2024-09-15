@@ -3,3 +3,17 @@ a:hover{
     color: #9122d4!important;
     text-decoration: none!important;
 }
+
+.btn-main{
+    border: 1px solid black;
+}
+
+.btn-main:hover{
+    border: 1px solid #9122d4;
+    color: #9122d4;
+}
+
+.btn-div {
+     display: grid;
+     place-items: center;
+}

@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Cloth{% endblock %}
+
+{% block body %}
+    <div class="container col-md-8">
+        <h1>Edit Cloth</h1>
+        {{ include('cloth/_form.html.twig', {'button_label': 'Update'}) }}
+
+        <a href="{{ path('app_cloth_index') }}" class="btn btn-main mt-2">back to list</a>
+
+        {{ include('cloth/_delete_form.html.twig') }}
+    </div>
+
+
+
+{% endblock %}
